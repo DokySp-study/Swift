@@ -13,6 +13,7 @@
     <session id="-173589194">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -40,26 +41,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/P1/c6/6.1.1.swift">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/P1/c6/6.1.2.swift">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,17 +73,6 @@
             <path>
               <item name="swift-study-2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="swift-study-2019" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="swift-study-2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="swift-study-2019" type="462c0819:PsiDirectoryNode" />
-              <item name="P1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="swift-study-2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="swift-study-2019" type="462c0819:PsiDirectoryNode" />
-              <item name="P1" type="462c0819:PsiDirectoryNode" />
-              <item name="c6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -143,7 +114,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="44" width="1332" height="812" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -178,7 +148,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/P1/c6/6.1.1.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="330">
           <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
         </state>
       </provider>
