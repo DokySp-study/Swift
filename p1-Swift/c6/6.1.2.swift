@@ -20,13 +20,13 @@ print()
 
 // 6.4 Use Floating Point numbers in Switch case.
 let bbb: Double
-/*
-if aaa == 3{
-    bbb = 3.14
-} else {  // if constant didn't get specified value, then compiler make error.
-    bbb = 5
-}
-*/
+
+// if aaa == 3{
+//     bbb = 3.14
+// } else {  // if constant didn't get specified value, then compiler make error.
+//     bbb = 5
+// }
+
 bbb = 3.9
 
 switch bbb {
