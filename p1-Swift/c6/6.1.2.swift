@@ -74,14 +74,65 @@ print()
 
 
 // 6.8 Use Tuple in Switch case.
+typealias NameAge = (name:String, age:Int)
+let tup: NameAge = ("Tony", 23)
+
+switch tup {
+    case ("Tony", 23):
+        print("correct")
+    default:
+        print("incorrect")
+}
+print()
 
 
 
 // 6.9 Wild Card.
+var abc: Int?
+// same as var abc: Int? = nil
+
+print(abc)
+switch abc {
+    case _:
+        print("black hole!")
+} // it works! but, too many warnings was occured.
+// set default(Init.) value, Int? -> Any
+
+
+switch tup {
+    case ("Tony", _):
+        print("name correct, age is \(tup.age)")
+    case (let tmp, 23):
+        print("age correct, name is \(tmp)") // value binding
+    default:
+        print("nothing")
+        // print(tmp)  //not a same block (binding X)
+}
+// print(tmp)  //out of block (binding X)
+print()
 
 
 
 // 6.10 Value Binding in Tuple.
+let dept: String = "emp"
+let grade: Int = 1
+let intern: Bool = true
+
+switch dept {
+    case "emp" where intern == true:
+        print("intern yes")
+    case "emp" where grade < 2 && intern == false:
+        print("newby")
+    case "emp" where grade > 5:
+        print("normal")
+    case "emp":
+        print("employee")
+    case "senior":
+        print("senior")
+    default:
+        print("none")
+}
+print()
 
 
 
