@@ -88,6 +88,7 @@ print()
 
 
 // 6.9 Wild Card.
+// 6.10 Value Binding in Tuple.
 var abc: Int?
 // same as var abc: Int? = nil
 
@@ -113,7 +114,7 @@ print()
 
 
 
-// 6.10 Value Binding in Tuple.
+// 6.11 Where.
 let dept: String = "emp"
 let grade: Int = 1
 let intern: Bool = true
@@ -136,10 +137,39 @@ print()
 
 
 
-// 6.11 Where.
-
-
-
 // 6.12 Enum in Switch case.
+enum School {
+    case primary, elementary, middle, high
+}
+
+var lastGrade: School
+lastGrade = .primary
+// School can be ommited
+
+if let input = readLine() {
+    switch input {
+        case "1":
+            lastGrade = School.primary
+        case "2": 
+            lastGrade = School.elementary
+        case "3":
+            lastGrade = School.middle
+        case "4":
+            lastGrade = School.high
+        default:
+            lastGrade = School.primary
+    }
+}
+
+
+switch lastGrade {
+    case .primary:
+        print("zero")
+    case .elementary:
+        print("first")
+    case .middle, .high:
+        print("mid")
+    // if, didn't make case for .high, then you need to make default: case.
+}
 
 
