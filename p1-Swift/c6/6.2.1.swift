@@ -1,4 +1,4 @@
-// for-in
+`````// for-in
 // similar as for-each
 // does not exist like //for(;;) style
 
@@ -55,7 +55,7 @@ for aaa in date {
     print(aaa)
 }
 print()
-for keyVal,val in date {
+for (keyVal,val) in date { /// ???
     print("\(keyVal)::\(val)")
 }
 print()
@@ -63,6 +63,4 @@ print()
 
 
 // Set
-
-
 
