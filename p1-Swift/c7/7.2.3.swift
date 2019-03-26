@@ -11,4 +11,4 @@ func hiThere() -> Void {
 }
 hiThere()
 
-
+print()
