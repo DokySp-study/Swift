@@ -1,6 +1,6 @@
 
 
-var a:Double = 1
+var a:Int = 1
 var sum:Int = 0
 
 // prefix operator ++
