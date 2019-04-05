@@ -13,5 +13,13 @@ func printAndReturn(_ inp:String) -> String {
     return inp
 }
 
+// this is possible too
+@discardableResult
+func printHello(_ input: String) -> String {
+    print("Hello")
+    return input
+}
+
 printAndReturn("test")
 printAndReturn2("test")
+printHello("Nice")
