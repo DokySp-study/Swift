@@ -28,3 +28,7 @@
   - 결론: 아직 읽는 중..
  - 널캐릭터 다음 문자열은 안찍는건지..?
  - 타입 형태를 알 수 있는 기능이 있는지..?
+
+
+## Github
+ - What is the difference between `git log` and `git reflog`
